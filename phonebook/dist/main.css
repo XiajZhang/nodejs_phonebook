@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+.nav-bar {
+  background: #474747;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  height: 120px;
+  margin: 0; }
+  .nav-bar h1 {
+    margin: 0;
+    margin-top: 20px; }
+  .nav-bar a {
+    float: right;
+    margin: 5px;
+    margin-right: 25%; }
+    .nav-bar a .add-icon {
+      display: block;
+      width: 50px;
+      height: 50px;
+      -webkit-filter: brightness(0) invert(1);
+      filter: brightness(0) invert(1);
+      transition: 0.3s ease-in-out;
+      -webkit-transition: 0.3s ease-in-out; }
+      .nav-bar a .add-icon:hover {
+        transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg); }
+
+.phonebook {
+  margin: 0 auto;
+  width: 50%; }
+  .phonebook .contact {
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    padding-left: 8%;
+    margin: 2px;
+    border-radius: 10px; }
+    .phonebook .contact:hover {
+      background: rgba(0, 0, 0, 0.1); }
+    .phonebook .contact .headInfo {
+      display: inline-block; }
+
+.info {
+  margin: 0 auto;
+  width: 50%; }
+
+.invisible {
+  display: none !important; }
+
+.info {
+  width: 40%;
+  font-size: 1em;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+  .info label, .info input {
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 2px; }
+  .info input {
+    border-radius: 5px;
+    padding: 5px; }
+    .info input[type="submit"] {
+      padding: 5px;
+      margin: 5px;
+      display: inline-block;
+      width: 50px; }
+  .info a {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px; }
+    .info a:hover {
+      background-color: rgba(0, 0, 0, 0.1); }
+  .info #thumb {
+    margin-top: 10px !important; }
+    .info #thumb #photo {
+      border-radius: 100px;
+      margin: 0;
+      border: 1px solid #dddd; }
+
+@media screen and (max-width: 400px) {
+  .nav-bar {
+    height: 50px; }
+    .nav-bar > h1 {
+      display: none; }
+  .phonebook {
+    font-size: 1em;
+    width: 80%; }
+  .info {
+    width: 80%; }
+    .info input, .info label {
+      width: 90%; } }

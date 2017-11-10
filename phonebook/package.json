@@ -1,0 +1,26 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "a nodejs project -- phonebook",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/XiajZhang/nodejs_phonebook.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Brayden Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XiajZhang/nodejs_phonebook/issues"
+  },
+  "homepage": "https://github.com/XiajZhang/nodejs_phonebook#readme",
+  "dependencies": {
+    "connect": "^3.6.5",
+    "serve-static": "^1.13.1"
+  }
+}

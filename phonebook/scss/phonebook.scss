@@ -1,0 +1,25 @@
+.phonebook{
+    margin: 0 auto;
+    width: 50%;
+    .contact{
+        width: 100%;
+        text-align: left;
+        padding: 5px;
+        padding-left: 8%;
+        margin: 2px;
+        border-radius: 10px;
+        &:hover{
+            background: $hover-back-ground;
+        }
+        .headInfo{
+            display: inline-block;
+        }
+    }
+}
+.info{
+    margin: 0 auto;
+    width: 50%;
+}
+.invisible{
+    display: none !important;
+}

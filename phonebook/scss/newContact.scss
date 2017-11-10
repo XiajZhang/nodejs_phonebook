@@ -1,0 +1,42 @@
+.info{
+    width: 40%;
+    font-size: $detail-font-size;
+    margin: 0 auto;
+    text-align: center;
+    font-family: $font;
+    label,input{
+        text-align: left;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        margin-top: 2px;
+    }
+    input{
+        border-radius: 5px;
+        padding: 5px;
+        &[type="submit"]{
+            padding: 5px;
+            margin: 5px;
+            display: inline-block;
+            width: 50px;
+        }
+    }
+    a{
+        display: inline-block;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+        &:hover{
+        background-color: $hover-back-ground;
+        }
+    }
+    #thumb{
+        margin-top: 10px !important;
+        #photo{
+        border-radius: 100px;
+        margin: 0;
+        border: 1px solid #dddd;
+        }
+    }
+
+}
